@@ -3,6 +3,14 @@ Git -> version history for code
 git init => it will track the current folder actions
 git status => it shows what changes we made and do not commited yet
 git add . // config.py => git will add latest version and we can handle what we want to add to the git i mean file
-git commit -m "Versions" // --amend => amend means it will add changes without adding new version
+git commit -m "Versions" // --amend -> amend means it will add changes without adding new version
+git commit -m 'Version upgraded' --amend it will not create new branch insted it will rechange standing file
 git log => understandable
-git checkout --filename or . => it will go back out code back  | if we will  change version1 from version2 it will show version 1 after using this command
+git log --all --graph => show with graph -- it won`t show unnamed branch
+git checkout ``hashcode`` it will return our code back
+git checkout main => when we do like this code my head move to where main branch standing field
+
+git checkout #hashcode . // dot will copy file info's without changing head informations
+
+
+// if we came back to the previous version and commit it again it will create new branch tree do not continue straight
