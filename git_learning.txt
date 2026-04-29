@@ -1,0 +1,7 @@
+Git -> version history for code
+//
+git init => it will track the current folder actions
+git status => it shows what changes we made and do not commited yet
+git add . // config.py => git will add latest version and we can handle what we want to add to the git i mean file
+git commit -m "Versions" // --amend -> amend means it will add changes without adding new version
+git log => understandable
