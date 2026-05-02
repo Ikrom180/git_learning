@@ -8,6 +8,7 @@ git commit -m 'Version upgraded' --amend it will not create new branch insted it
 git log => understandable
 git log --all --graph => show with graph -- it won`t show unnamed branch
 git checkout ``hashcode`` it will return our code back
+git checkout '#hashcode' folder name or dot => it will copy what we have versions not changing commit version 'number'
 git checkout main => when we do like this code my head move to where main branch standing field
 
 git checkout #hashcode . // dot will copy file info's without changing head informations
