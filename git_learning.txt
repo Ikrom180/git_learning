@@ -15,3 +15,9 @@ git checkout #hashcode . // dot will copy file info's without changing head info
 
 // if we came back to the previous version and commit it again it will create new branch tree do not continue straight
 // if we wanted to remove git all of the history we have to just remove .git file and it will auto remove git transactions
+
+########################################################
+// Git repository => folder that is being tracked by git
+// GitHub => specifically designed for git repositories
+//inside computer when i open folder it's called -> local repository
+// when i open to github repo it's called online repository 
