@@ -21,4 +21,26 @@ git checkout #hashcode . // dot will copy file info's without changing head info
 // Git repository => folder that is being tracked by git
 // GitHub => specifically designed for git repositories
 //inside computer when i open folder it's called -> local repository
-// when i open to github repo it's called online repository 
+// when i open to github repo it's called online repository
+
+
+git branch -M main => Big -M  force to change what ever branch is
+git branch -d branch-name => will delete given branch -- it will del local branch
+git push origin branch-name --delete mansur => it will remove remote rep
+
+--If before we used to amed in local pc we should us this code
+git push origin branch-name -f
+
+git remote prune origin => clean up local references
+git show-ref => shows all references include remote
+git remote add origin http.. link => it will link to current and remote repository
+git remote -v => v -> meant verbose ->  Give more details
+git remote remove origin => it will remove linked url and we can add another  url for cloning
+Upload to GitHub => push
+Downland from GitHub => pull
+
+/
+	Git push only pushes commits like commit in local repo
+/
+
+git clone url folder_name / if you have folder do not write folder name
