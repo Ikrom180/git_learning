@@ -44,3 +44,4 @@ Downland from GitHub => pull
 /
 
 git clone url folder_name / if you have folder do not write folder name
+git push origin   #36 given name main / master
