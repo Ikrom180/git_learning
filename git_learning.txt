@@ -45,3 +45,8 @@ Downland from GitHub => pull
 
 git clone url folder_name / if you have folder do not write folder name
 git push origin   #36 given name main / master
+
+git fetch => downland new data from a remote repository like (Github, Gitlab) without merging auto
+git pull origin main/master   => So while git fetch just downloads changes for you to review, git pull downloads AND integrates them immediately.
+
+git pull origin master --set-upstream => than we can just write /git pull\
