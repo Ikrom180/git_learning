@@ -51,8 +51,3 @@ git pull origin main/master   => So while git fetch just downloads changes for y
 
 git pull origin master --set-upstream => than we can just write /git pull\
 
-## Additionals
-if you clone from git repo new project pretend you join new team you do not have to write
-git init
-git remote add origin https
-bc it is already added in its git file
