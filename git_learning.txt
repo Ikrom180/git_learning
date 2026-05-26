@@ -39,7 +39,7 @@ git remote remove origin => it will remove linked url and we can add another  ur
 Upload to GitHub => push
 Downland from GitHub => pull
 
-/
+/ 
 	Git push only pushes commits like commit in local repo
 /
 
